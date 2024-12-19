@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    display: grid;
+    place-items: center;
+    height: 100vh;
+
+}
+.togle-switch{
+    background-color: rgb(207, 205, 206);
+    width: 10rem;
+    height: 5rem;
+    border-radius: 3rem; 
+    display: flex;
+    cursor: pointer;
+    
+
+}
+.switch{
+   margin: 0.5rem;
+    background-color:rgb(207, 211, 212);
+    width: 4rem;
+    height:4rem;
+    display: flex;
+    align-items: center; 
+    border-radius: 4rem;
+    justify-content: center;
+    border:0.3rem solid rgb(207, 211, 212);
+}
+.on{
+    background-color: green;
+    transform: translate(5rem) ;
+    transition: transform 1s Ease-out;
+}
+.off{
+    background-color: red;
+    transform: translate(0);
+    transition: transform 1s Ease-out;
+}
